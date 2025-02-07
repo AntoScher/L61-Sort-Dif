@@ -20,15 +20,6 @@ def quick_sort(s):
 
 print(quick_sort([5, 2, 9, 0, 1, 5, 3]))
 
-
-
-
-
-
-
-
-
-
 def quick_sort(s):
    if len(s) <= 1:
        return s
@@ -41,10 +32,6 @@ def quick_sort(s):
    return quick_sort(left) + center + quick_sort(right)
 
 print(quick_sort([5, 2, 9, 0, 1, 5, 3]))
-
-
-
-
 
 def selection_sort(arr):
    # Проходим по всему списку
