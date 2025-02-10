@@ -75,3 +75,8 @@ algorithms = [("Quicksort", quicksort), ("Heapsort", heapsort), ("Merge Sort", m
 for name, algorithm in algorithms:
     time_taken, memory_used, data_structure = measure_sorting_algorithm(algorithm, array)
     print(f"{name}: Время выполнения = {time_taken:.6f} секунд, Память = {memory_used / 1024:.2f} КБ, Тип структуры данных = {data_structure}")
+
+
+print("Quicksort: O(n log n) в среднем, O(n²) в худшем случае")
+print("Heapsort: O(n log n) всегда")
+print("Merge Sort: O(n log n) всегда")
